@@ -1,19 +1,26 @@
 {
-  "name": "tsk",
-  "version": "0.1.0",
-  "private": true,
+  "name": "tskt1",
+  "version": "0.1.1",
+  "private": false,
+  "author": "TSk",
+  "main": "dist/Tsk.umd.min.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name Tsk -dest dist index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "tskt1": "^0.1.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "@vuepress/plugin-register-components": "^2.0.0-beta.46",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^2.0.0-beta.46"
   },
   "browserslist": [
     "> 1%",
