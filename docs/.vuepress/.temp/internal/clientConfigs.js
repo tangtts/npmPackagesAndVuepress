@@ -1,11 +1,11 @@
-import clientConfig0 from 'E:/study/tsk/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
-import clientConfig1 from 'E:/study/tsk/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
-import clientConfig2 from 'E:/study/tsk/node_modules/@vuepress/plugin-external-link-icon/lib/client/config.js'
-import clientConfig3 from 'E:/study/tsk/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
-import clientConfig4 from 'E:/study/tsk/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
-import clientConfig5 from 'E:/study/tsk/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
-import clientConfig6 from 'E:/study/tsk/node_modules/@vuepress/theme-default/lib/client/config.js'
-import clientConfig7 from 'E:/study/tsk/docs/.vuepress/.temp/register-components/clientConfig.59b85b58.js'
+import clientConfig0 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
+import clientConfig1 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
+import clientConfig2 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-external-link-icon/lib/client/config.js'
+import clientConfig3 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
+import clientConfig4 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
+import clientConfig5 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
+import clientConfig6 from 'E:/front 学习/npmPackagesAndVuepress/node_modules/@vuepress/theme-default/lib/client/config.js'
+import clientConfig7 from 'E:/front 学习/npmPackagesAndVuepress/docs/.vuepress/.temp/register-components/clientConfig.5ee08211.js'
 
 export const clientConfigs = [
   clientConfig0,

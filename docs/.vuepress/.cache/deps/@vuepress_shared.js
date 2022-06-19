@@ -69,11 +69,12 @@ var htmlUnescapeRegexp = /&(amp|#38|lt|#60|gt|#62|apos|#39|quot|#34);/g;
 var htmlUnescape = (str) => str.replace(htmlUnescapeRegexp, (char) => htmlUnescapeMap[char]);
 var isLinkFtp = (link) => link.startsWith("ftp://");
 var isLinkHttp = (link) => /^(https?:)?\/\//.test(link);
+var markdownLinkRegexp = /.md((\?|#).*)?$/;
 var isLinkExternal = (link, base = "/") => {
   if (isLinkHttp(link) || isLinkFtp(link)) {
     return true;
   }
-  if (link.startsWith("/") && !link.startsWith(base) && !link.endsWith(".md")) {
+  if (link.startsWith("/") && !link.startsWith(base) && !markdownLinkRegexp.test(link)) {
     return true;
   }
   return false;
